@@ -1,0 +1,126 @@
+* {
+    margin: 10;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #1d3557;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  header {
+    margin: 30px;
+  }
+  
+  .main {
+    
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titulo {
+    text-align: center;
+    margin-left: 5px;
+    padding: 15px;
+    width: 30vw;
+    margin: auto;
+    color: #f1faee;
+  }
+  
+  .subtitulo {
+    text-align: center;
+    margin: 0 5px 5px 15px;
+    color: #f1faee;
+  }
+  
+  .subtitulo span {
+    font-size: small;
+    color: #f1faee;
+  }
+  .descripcion {
+    text-align: center;
+    margin-left: 25px;
+    font-style: oblique;
+    color: #f1faee;
+  }
+  
+  .consigna {
+    text-align: center;
+    margin: 10px 0 10px 50px;
+    color: #f1faee;
+  }
+  
+  .box {
+    margin-left: 15px;
+    border-radius: 10px;
+    outline: 2px solid #a8dadc;
+    border: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #a8dadc;
+    outline-offset: 3px;
+    padding: 20px 2rem;
+    transition: 0.25s;
+  }
+  .input:focus {
+  outline-offset: 5px;
+  background-color: #a8dadc
+}
+  .btn {
+    margin-top: 7px;
+    width: 9em;
+    height: 3em;
+    border-radius: 30em;
+    font-size: 15px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    box-shadow: 6px 6px 12px #0096c7,
+                -6px -6px 12px #58eef3;
+  }
+  
+  .btn:hover{
+    background-color: #00b4d8;
+  }
+  
+  .btn:active{
+    background-color: #ade8f4;
+  }
+  
+  .text-input {
+    border-radius: 0.5em;
+    border: px solid rgba(0, 0, 0, 0.2);
+    display: block;
+    padding: 0.5em;
+    width: 100%;
+    height: 50px;
+  }
+  .btn::before {
+    content: '';
+    width: 0;
+    height: 3em;
+    border-radius: 30em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to right, #90e0ef 0%, #00b4d8 100%);
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+   }
+   button:hover::before {
+    width: 9em;
+   }
+   footer {
+    margin-left: 830px;
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    height: 10px;
+    color: #FFF7F5;
+
+}
